@@ -53,7 +53,7 @@ tl.from("#line1-part1",{
     else{
         h5timer.innerHTML = grow
     }
-}, 32);
+}, 30);
     }
 })
 
@@ -107,8 +107,8 @@ function cursorAnimation(){
                opacity:0
             })
             gsap.to("#video-cursor",{
-                left:dets.x - 400,
-                y:dets.y - 100
+                left:dets.x - 390,
+                y:dets.y - 90
             })
         })
     })
